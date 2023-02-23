@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.misubHeading{
+    display: flex;
+    justify-content: center;
+}
 .typingMachine{
     display: block;
     font-family: monospace;
@@ -11,6 +15,8 @@
 
 .social-icons{
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .social-icon{
