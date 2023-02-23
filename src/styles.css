@@ -11,6 +11,7 @@
     overflow: hidden;
     width: 14ch;
     animation: typing 3.5s steps(14), blink .5s infinite step-end alternate;
+    color: #6c757d;
   }
 
 .social-icons{
@@ -21,6 +22,14 @@
 
 .social-icon{
     color: #0087E2;
+}
+
+.pbachelor{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.dateGraduate{
+    font-size: 1.5rem;
 }
 
 @keyframes typing {
