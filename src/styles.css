@@ -87,6 +87,17 @@
     bottom: 50px;
 }
 
+.icon_sidenav{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 0.5rem;
+}
+.list_sidenav{
+    display: flex !important;
+    justify-content: center;
+}
+
 @keyframes typing {
     0% { width: 0}   
 }
@@ -124,4 +135,11 @@
         height: 2rem;
     }
   }
+
+@media (max-width: 991px)
+{
+    .icon_sidenav{
+        margin-right: 0.4rem;
+    }
+}
 
