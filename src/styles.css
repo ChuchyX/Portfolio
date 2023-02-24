@@ -37,12 +37,49 @@
     font-size: 1.2rem;
 }
 
-.svg_skill{
-    width: 5rem;
-}
-
 .skill_list{
     font-weight: 700;
+}
+
+.resume-section{
+    justify-content: space-between;
+}
+.svg_skills{
+ width: 100%;
+}
+
+.group_skills{
+    display: flex;
+    width: inherit;
+}
+
+.groupskills1{
+    justify-content: space-around;
+}
+.groupskills2{
+    justify-content: space-evenly;
+}
+.groupskills3{
+    justify-content: space-around;
+}
+.groupskills4{
+    justify-content: space-evenly;
+}
+.groupskills5{
+    justify-content: space-around;
+}
+
+.svg_skill{
+    width: 3.5rem;
+    height: 3.5rem;
+    animation: float_skill 5s ease-in-out infinite;
+}
+
+.svg2{
+ animation-delay: 1s;
+}
+.svg3{
+    animation-delay: 2s;
 }
 
 @keyframes typing {
@@ -50,4 +87,16 @@
 }
 @keyframes blink {
     50% {border-color: transparent;}
+}
+
+@keyframes float_skill{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
