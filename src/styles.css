@@ -46,7 +46,7 @@
 }
 .svg_skills{
  width: 100%;
- margin-top: 10rem;
+ margin-top: 4rem;
 }
 
 .group_skills{
@@ -82,6 +82,10 @@
 .svg3{
     animation-delay: 2s;
 }
+.sectionSkills{
+    position: relative;
+    bottom: 50px;
+}
 
 @keyframes typing {
     0% { width: 0}   
@@ -104,7 +108,11 @@
 
 @media (max-width: 768px) {
     .svg_skills{
-        margin-top: 15rem;
+        margin-top: 12rem;
+    }
+    .sectionSkills{
+        position: relative;
+        bottom: 0px;
     }
     .svg_skill{
         width: 2rem;
