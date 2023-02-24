@@ -32,6 +32,11 @@
     font-size: 1.5rem;
 }
 
+.certifications{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
 @keyframes typing {
     0% { width: 0}   
 }
