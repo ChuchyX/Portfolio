@@ -105,10 +105,15 @@
         transform: translateY(0);
     }
 }
+@media (max-width: 423px) {
+    .titleskills{
+        font-size: 1.5rem !important;
+    }
+  }
 
 @media (max-width: 768px) {
     .svg_skills{
-        margin-top: 12rem;
+        margin-top: 16rem;
     }
     .sectionSkills{
         position: relative;
@@ -119,3 +124,4 @@
         height: 2rem;
     }
   }
+
