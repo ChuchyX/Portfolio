@@ -221,13 +221,14 @@
             <div class="container_form">
                 <div class="box__login">
                     <h2>Let's Talk</h2>
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact" method="POST">
+                        <input type="hidden" name="form-name" value="contact" />
                         <div class="box__login-input">
                             <input type="text" required name="name"/>
                             <label>Name</label>
                         </div>
                         <div class="box__login-input">
-                            <input type="text" required name="email"/>
+                            <input type="email" required name="email"/>
                             <label>Email</label>
                         </div>
                         <div class="box__login-input">
