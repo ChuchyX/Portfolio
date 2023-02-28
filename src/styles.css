@@ -397,10 +397,11 @@
     backface-visibility: hidden;
     border-radius: 15px;
     cursor: pointer;
-    display: flex;
+    padding-top: 3rem;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 .card__giratorio-content-front {
@@ -423,7 +424,7 @@
     animation-delay: 2s;
     color: white;
     transform: rotateY(180deg);
-    padding: 1rem;
+    padding: 5rem;
 }
 
 .card__giratorio-content-back h1,
@@ -470,6 +471,7 @@
     transition: all 0.2s ease-in-out;
     border-radius: 30px;
     margin-right: 1rem;
+    display: inline-block;
 
   }
   
@@ -482,4 +484,44 @@
   .button-portfolio:active {
     transform: scale(0.97);
   }
+  
+
+  @media (max-width: 584px)
+  {
+    .paragraph1{
+        font-size: 20px !important;
+        margin-top: 50px !important;
+    }
+   .card__giratorio-content-back1{
+    padding: 10px !important;
+   }
+
+   .paragraph2{
+    font-size: 20px !important;
+    margin-top: 50px !important;
+    }
+    .card__giratorio-content-back2{
+    padding: 10px !important;
+    }
+}
+
+@media (max-width: 715px)
+{
+  .paragraph3{
+      font-size: 15px !important;
+      margin-top: 70px !important;
+  }
+ .card__giratorio-content-back3{
+  padding: 10px !important;
+ }
+
+}
+.paragraph4{
+    font-size: 15px !important;
+    margin-top: 70px !important;
+}
+.card__giratorio-content-back4{
+padding: 0px !important;
+}
+
   
