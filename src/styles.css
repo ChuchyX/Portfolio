@@ -446,7 +446,7 @@
 }
 
 
-/* .button-portfolio {
+.button-portfolio {
     background-color: #ffc600;
 
     color: #000000;
@@ -481,9 +481,5 @@
   
   .button-portfolio:active {
     transform: scale(0.97);
-  } */
-  
-  .button-portfolio{
-    background-color: yellow;
-    margin: 5px;  
   }
+  
