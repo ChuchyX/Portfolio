@@ -482,7 +482,7 @@
   }
   
 
-  @media (max-width: 584px)
+  /* @media (max-width: 584px)
   {
     .paragraph1{
         font-size: 1rem !important;
@@ -491,6 +491,6 @@
     .card__giratorio-content-back1{
         padding: 2rem !important;
     }
-  }
+  } */
 
   
