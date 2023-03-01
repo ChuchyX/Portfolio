@@ -337,113 +337,20 @@
     }
   }
 
-  .container_portfolio{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: 
-    "project1"
-    "project2"
-    "project3"
-    "project4";
-    row-gap: 2rem;
-    place-items: center;
-  }
+ .img_carousel{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10%;
+ }
 
-  .card1{
-    grid-area: project1;
-  }
-  
-  .card2{
-    grid-area: project2;
-  }
-  .card3{
-    grid-area: project3;
-  }
-  
-  .card4{
-    grid-area: project4;
-  }
+ .project_description{
+    width: 65%;
+    margin-left: 20%;
+ }
 
 
-   /* Card Portfolio */
-  .card__giratorio {
-    background-color: transparent;
-    width: 75%;
-    height: 20rem;
-    perspective: 1000px;
-}
 
-.card__giratorio-content {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-.card__giratorio:hover .card__giratorio-content {
-    transform: rotateY(180deg);
-}
-
-.card__giratorio-content-front,
-.card__giratorio-content-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    /* Safari */
-    backface-visibility: hidden;
-    border-radius: 15px;
-    cursor: pointer;
-    padding-top: 3rem;
-}
-
-.card__giratorio-content-front {
-    background: #373B44;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4286f4, #373B44, #8E2DE2, #4A00E0, #2980b9, #2c3e50, #6441A5, #2a0845, #182848, #4b6cb7, #1CB5E0, #000046, #000428, #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    background-size: 1200% 100%;
-    animation: gradient 60s infinite alternate; 
-    animation-delay: 2s;
-}
-
-.card__giratorio-content-back {
-    background: #373B44;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4286f4, #373B44, #8E2DE2, #4A00E0, #2980b9, #2c3e50, #6441A5, #2a0845, #182848, #4b6cb7, #1CB5E0, #000046, #000428, #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    background-size: 1200% 100%;
-    animation: gradient 60s infinite alternate; 
-    animation-delay: 2s;
-    color: white;
-    transform: rotateY(180deg);
-    padding: 5rem;
-}
-
-.card__giratorio-content-back h1,
-.card__giratorio-content-back p {
-    margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    font-size: 1.5rem;
-}
-
-.card__giratorio-content-back h1 {
-    font-size: 1.7rem;
-}
-
-.logo {
-    width: 80%;
-    height: 80%;
-    filter: drop-shadow(2px 2px 5px black);
-    
-    border-radius: 20px;
-}
-
-
-.button-portfolio {
+ .button-portfolio {
     background-color: #ffc600;
 
     color: #000000;
@@ -480,17 +387,9 @@
   .button-portfolio:active {
     transform: scale(0.97);
   }
-  
-
-  /* @media (max-width: 584px)
-  {
-    .paragraph1{
-        font-size: 1rem !important;
-        margin-top: 2rem !important;
-    }
-    .card__giratorio-content-back1{
-        padding: 2rem !important;
-    }
-  } */
-
+ .container_buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
   
