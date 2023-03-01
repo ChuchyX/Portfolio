@@ -343,9 +343,14 @@
     border-radius: 10%;
  }
 
+ .pversion{
+    width: 100%;
+    text-align: center;
+ }
+
  .project_description{
-    width: 65%;
-    margin-left: 20%;
+    width: 100%;
+    text-align: center;
  }
 
 
