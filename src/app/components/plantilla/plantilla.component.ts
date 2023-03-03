@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-plantilla',
@@ -7,10 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlantillaComponent implements OnInit {
 
+  theme = true;
+
   constructor() { }
 
   ngOnInit(): void {
-   
+    if(this.theme)
+    {
+      document.documentElement.setAttribute("data-theme", "light");
+    }
+    else
+    {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  }
+
+  changeTheme()
+  {
+    this.theme = !this.theme;
+    this.ngOnInit();
   }
 
 }
